@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <limits.h>
 
-
+//PRIM
 int minKey(int key[], bool mstSet[], int size){
    
 	int min = INT_MAX, min_index;
@@ -54,7 +54,7 @@ void primMST(int **graph , int size){
      
      printMST(parent, size, graph);
 }
- 
+//Dijkstra 
 int minDistance(int dist[], bool sptSet[], int size)
 {
 	int min = INT_MAX, min_index;
